@@ -361,7 +361,7 @@ def infer(
     
     # Rewrite prompt
     progress(0.1, desc="Optimizing prompt...")
-    prompt = rewrite(prompt)
+    # prompt = rewrite(prompt)
     print(f"Prompt: {prompt}, original_prompt: {original_prompt}")
 
     # Submit task to queue
